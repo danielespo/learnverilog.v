@@ -367,12 +367,6 @@ module file_io_example;
     end
 endmodule
 
-Certainly! Let's extend our Verilog example further to include interfaces, assertions, and a glimpse into advanced synthesizable constructs like clock domain crossing (CDC) techniques.
-
-verilog
-
-...
-
 ///////////////////////////////////////////////////
 // 18. Interfaces
 ///////////////////////////////////////////////////
@@ -732,8 +726,6 @@ module advanced_assertions(input logic clk);
 
     assert property (p_no_invalid_data) else $error("Invalid data sequence detected!");
 endmodule
-
-
 
 ///////////////////////////////////////////////////
 // 33. Packaging and Importing
