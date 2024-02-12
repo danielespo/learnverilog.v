@@ -44,6 +44,11 @@ module test;
     adder my_adder(.a(1'b1), .b(1'b1), .sum(sum));
 endmodule
 
+module twoBitReg(input wire clk, reset, load, input wire[1:0] inp, output wire [1:0] outp);
+	dfrl dfrl_0(clk, reset, load, inp[0], outp[0]); // this is a flip flop in verilog
+	dfrl dfrl_1(clk, reset, load, inp[1], outp[1]);
+endmodule
+
 ///////////////////////////////////////////////////
 // 3. Procedural Blocks and Conditional Statements
 ///////////////////////////////////////////////////
