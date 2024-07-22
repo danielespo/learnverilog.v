@@ -1,6 +1,6 @@
 ---
 language: SystemVerilog
-filename: all-syntax.vd
+filename: all-syntax.sv
 contributors:
     - ["Daniel Espinosa", "https://github.com/danielespo"]
 ---
