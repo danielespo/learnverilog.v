@@ -1,3 +1,11 @@
+---
+language: SystemVerilog
+filename: all-syntax.vd
+contributors:
+    - ["Daniel Espinosa", "https://github.com/danielespo"]
+---
+
+
 // All of systemverilog syntax in one file
 // dae 2024
 // ++++++++++++++++++++++++++++++++++++++
